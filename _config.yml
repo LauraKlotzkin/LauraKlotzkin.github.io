@@ -25,12 +25,12 @@ exclude: [.bundle, .vendor, .bin, starving-artist.gemspec, bin, vendor, Gemfile,
 markdown: kramdown
 kramdown:
   input: GFM
-
-theme: starving-artist-jekyll-theme
+remote_theme: chrisbobbe/jekyll-theme-starving-artist
   
-# Plugins
 plugins:
-  - jekyll-feed
+     - jekyll-remote-theme
+     - jekyll-feed
+     # ... other plugins
 
 feed:
   path: atom.xml
