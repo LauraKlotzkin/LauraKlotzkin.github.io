@@ -25,7 +25,7 @@ exclude: [.bundle, .vendor, .bin, starving-artist.gemspec, bin, vendor, Gemfile,
 markdown: kramdown
 kramdown:
   input: GFM
-remote_theme: chrisbobbe/jekyll-theme-starving-artist
+remote_theme: chrisanthropic/starving-artist-jekyll-theme
   
 plugins:
      - jekyll-remote-theme
