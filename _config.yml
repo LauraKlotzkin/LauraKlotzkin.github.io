@@ -29,7 +29,7 @@ kramdown:
 theme: starving-artist-jekyll-theme
   
 # Plugins
-gems:
+plugins:
   - jekyll-feed
 
 feed:
